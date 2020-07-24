@@ -37,10 +37,10 @@ const App = () => {
                     borderColor={'#242e50'}
                     hourHandWidth={8}
                     minuteHandWidth={5}
-                    hourMarksWidth={12}
-                    hourMarksHeight={3}
-                    minuteMarksWidth={5}
-                    minuteMarksHeight={2}
+                    hourMarksWidth={3}
+                    hourMarksHeight={12}
+                    minuteMarksWidth={2}
+                    minuteMarksHeight={5}
                 />
             </div>
             <div className='clock-container'>
@@ -54,8 +54,8 @@ const App = () => {
                     borderColor={'#242e50'}
                     hourHandWidth={8}
                     minuteHandWidth={5}
-                    hourMarksWidth={12}
-                    hourMarksHeight={3}
+                    hourMarksWidth={3}
+                    hourMarksHeight={12}
                     hourMarksColor={'black'}
                     renderMinuteMarks={false}
                 />
@@ -71,8 +71,8 @@ const App = () => {
                     borderColor={'#1d123a'}
                     hourHandWidth={8}
                     minuteHandWidth={5}
-                    hourMarksWidth={12}
-                    hourMarksHeight={3}
+                    hourMarksWidth={3}
+                    hourMarksHeight={12}
                     hourMarksColor={'white'}
                     renderMinuteMarks={false}
                 />
@@ -88,11 +88,11 @@ const App = () => {
                     borderColor={'#f1921d'}
                     hourHandWidth={8}
                     minuteHandWidth={5}
-                    hourMarksWidth={12}
-                    hourMarksHeight={3}
+                    hourMarksWidth={3}
+                    hourMarksHeight={12}
                     hourMarksColor={'black'}
-                    minuteMarksWidth={5}
-                    minuteMarksHeight={2}
+                    minuteMarksWidth={2}
+                    minuteMarksHeight={5}
                 />
             </div>
         </div>

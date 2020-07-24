@@ -4,10 +4,25 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 30px auto;
-    width: 850px;
-    
+    width: 850px; 
 }
+
 .clock-container {
     width: 32%;
     margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .clock-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app-container {
+        width: 100%;
+    }
+    
 }
