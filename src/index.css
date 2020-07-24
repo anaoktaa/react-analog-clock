@@ -15,3 +15,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container .form-container {
+  width: 50%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+
+.container .image-form-container {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container .form-container {
+    width: 100%;
+  }
+  .container .image-form-container {
+    display: none;
+  }
+}
+
+.line {
+  /* border-bottom: 4px dashed black; */
+  margin: 35px 0 20px;
+}
+
+.group-1, .group-2 {
+  border: 1.2px solid #c7c7c7;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}

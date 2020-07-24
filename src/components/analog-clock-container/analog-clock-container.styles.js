@@ -18,7 +18,7 @@ const ClockBorderStyle = css`
 export const ClockContainerStyled = styled.div`
     width: ${(({size}) => size)}px;
     height: ${(({size}) => size)}px;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: ${(({backgroundColor}) => backgroundColor)};
     border-radius: 50%;
     position: relative;
     ${ClockBorderStyle};

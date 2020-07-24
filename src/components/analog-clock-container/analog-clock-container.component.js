@@ -39,6 +39,7 @@ const AnalogClockContainer = (props) => {
             borderWidth={props.borderWidth}
             centerNodeColor={props.centerNodeColor}
             centerNodeSize={props.centerNodeSize}
+            backgroundColor={props.backgroundColor}
         >
             <HandHour 
                 hourRatio={hourRatio}
@@ -81,6 +82,7 @@ export default AnalogClockContainer;
 AnalogClockContainer.propTypes = {
     size : PropTypes.number, //in pixels 
     border: PropTypes.bool,
+    backgroundColor: PropTypes.string,
     centerNodeColor: PropTypes.string,
     centerNodeSize: PropTypes.number,
     borderColor: PropTypes.string,
@@ -105,12 +107,13 @@ AnalogClockContainer.propTypes = {
 }; 
 
 AnalogClockContainer.defaultProps = {
-    size: 500,
+    size: 300,
+    backgroundColor: 'rgba(0, 0, 0, .8)',
     border: true,
     centerNodeColor: 'white',
     centerNodeSize: 20,
     borderColor: '#5f5f5f',
-    borderWidth: 15,
+    borderWidth: 10,
     hourHandLength: 30,
     hourHandWidth: 12,
     hourHandColor: 'rgba(255, 255, 255, .8)',
