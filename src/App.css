@@ -5,13 +5,28 @@
     flex-wrap: wrap;
     margin: 30px auto;
     width: 850px; 
+    box-sizing: border-box;
 }
 
 .clock-container {
     width: 32%;
     margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
+@media screen and (max-width: 992px) {
+    .clock-container {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .app-container {
+        width: 100%;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 600px) {
     .clock-container {
         width: 100%;
@@ -24,5 +39,4 @@
     .app-container {
         width: 100%;
     }
-    
 }
