@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c02699fa51197cb92baaa877783501e9",
+    "revision": "8213c617f5fe7d9d883b767213e9e9b6",
     "url": "/react-analog-clock/index.html"
   },
   {
-    "revision": "84ea6ec7dd839889c5e7",
-    "url": "/react-analog-clock/static/css/main.d5994d73.chunk.css"
+    "revision": "059a2f574f9af14f766a",
+    "url": "/react-analog-clock/static/css/main.6af7ccb2.chunk.css"
   },
   {
     "revision": "d0722c32aa6f569d8ddf",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-analog-clock/static/js/2.49d4b603.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84ea6ec7dd839889c5e7",
+    "revision": "059a2f574f9af14f766a",
     "url": "/react-analog-clock/static/js/main.231645aa.chunk.js"
   },
   {
