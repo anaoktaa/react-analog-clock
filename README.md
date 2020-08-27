@@ -18,7 +18,7 @@ $ npm install
 $ npm start
 ```
 
-### Usage
+## Usage
 
 ```js
 import React from 'react';
@@ -51,7 +51,7 @@ const App = () => {
 export default App;
 ```
 
-### Available Props
+## Available Props
 
 |Prop name|Description|Default value|Example values|
 |----|----|----|----|
