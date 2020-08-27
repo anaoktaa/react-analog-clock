@@ -51,29 +51,32 @@ const App = () => {
 export default App;
 ```
 
-#### Available Props
+### Available Props
 
 |Prop name|Description|Default value|Example values|
 |----|----|----|----|
-|className|Class name(s) that will be added along with `"react-clock"` to the main React-Clock `<time>` element.|n/a|<ul><li>String: `"class1 class2"`</li><li>Array of strings: `["class1", "class2 class3"]`</li></ul>|
-|hourHandLength|Hour hand length, in %.|`50`|`80`|
-|hourHandOppositeLength|The length of the part of an hour hand on the opposite side the hand is pointing to, in %.|`10`|`20`|
-|hourHandWidth|Hour hand width, in pixels.|`4`|`3`|
-|hourMarksLength|Hour marks length, in %.|`10`|`8`|
-|hourMarksWidth|Hour marks width, in pixels.|`3`|`2`|
-|minuteHandLength|Minute hand length, in %.|`70`|`80`|
-|minuteHandOppositeLength|The length of the part of a minute hand on the opposite side the hand is pointing to, in %.|`10`|`20`|
-|minuteHandWidth|Minute hand width, in pixels.|`2`|`3`|
-|minuteMarksLength|Minute marks length, in %.|`6`|`8`|
-|minuteMarksWidth|Minute marks width, in pixels.|`1`|`2`|
-|renderHourMarks|Whether hour marks shall be rendered.|`true`|`false`|
-|renderMinuteHand|Whether minute hand shall be rendered.|`true`|`false`|
+|size|Size clock, in px.|`300`|`200`|
+|backgroundColor|Background color clock (string)|`rgba(0, 0, 0, .8)`|`black`|
+|border|Whether border shall be rendered|`true`|`false`|
+|centerNodeColor|Center node color (string)|`white`|`#efefef`|
+|centerNodeSize|Center node size, in pixels.|`20`|`15`|
+|borderColor|Border color clock (string)|`#5f5f5f`|`white`|
+|borderWidth|Border width, in px.|`10`|`15`|
+|hourHandLength|Hour hand length, in %.|`30`|`25`|
+|hourHandWidth|Hour hand width, in px.|`12`|`10`|
+|hourHandColor|Hour hand color (string)|`rgba(255, 255, 255, .8)`|`yellow`|
+|minuteHandLength|Minute hand length, in %.|`39`|`30`|
+|minuteHandWidth|Minute hand width, in px.|`8`|`5`|
+|minuteHandColor|Minute hand color (string)|`grey`|`#929292`|
+|secondHandLength|Second hand length, in %.|`46`|`40`|
+|secondHandWidth|Second hand width, in px.|`3`|`4`|
+|secondHandColor|Second hand color (string)|`red`|`yellow`|
 |renderMinuteMarks|Whether minute marks shall be rendered.|`true`|`false`|
-|renderNumbers|Whether numbers shall be rendered.|`false`|`true`|
-|renderSecondHand|Whether second hand shall be rendered.|`true`|`false`|
-|secondHandLength|Second hand length, in %.|`90`|`80`|
-|secondHandOppositeLength|The length of the part of a second hand on the opposite side the hand is pointing to, in %.|`10`|`20`|
-|secondHandWidth|Second hand width, in pixels.|`1`|`2`|
-|size|Clock size, in pixels.|`150`|`250`|
-|value|Clock value. Must be provided.|n/a|Date: `new Date()`|
+|renderHourMarks|Whether hour marks shall be rendered.|`true`|`true`|
+|hourMarksColor|Hour marks color (string)|`white`|`#fff`|
+|hourMarksWidth|Hour marks width, in px.|`8`|`10`|
+|hourMarksHeight|Hour marks height, in px.|`10`|`12`|
+|minuteMarksColor|Minute marks color (string)|`#7b7b7b`|`#68a244`|
+|minuteMarksWidth|Minute marks width, in px.|`4`|`5`|
+|minuteMarksHeight|Minute marks height, in px.|`4`|`5`|
 
